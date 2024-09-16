@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Odontológico Sorriso Perfeito</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            color: #333;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            background: linear-gradient(to right, white, white); /* Gradiente de cores para o título */
+            -webkit-background-clip: text; /* Aplica o gradiente apenas ao texto */
+            -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+            margin: 0; /* Remove margens para ajuste fino */
+            padding: 10px 0; /* Espaçamento interno */
+            display: inline-block; /* Mantém o título como elemento de bloco em linha */
+            border-radius: 10px; /* Adiciona cantos arredondados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+            transition: background 0.3s ease, transform 0.3s ease; /* Adiciona transições suaves */
+        }
+
+        section {
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            color: white;
+        }
+
+        h1, h2, h3 {
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <video id="video-background" autoplay muted loop>
+        <source src="assets/Dentes.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+
+    <header>
+        <h1>Bem-vindo ao Consultório Odontológico.</h1>
+    </header>
+    <br>
+    <br>
+
+    <section>
+        <h2>Nossa História</h2>
+        <p>O Consultório Odontológico Sorriso Saudável foi fundado em 2010 por Dr. João e Dra. Maria, com o objetivo de oferecer
+            serviços odontológicos de alta qualidade para toda a família. Desde então, nos dedicamos a proporcionar um atendimento
+            humanizado e eficaz, sempre utilizando as tecnologias mais avançadas.</p>
+        <p>Nosso compromisso é com a saúde e o bem-estar de nossos pacientes, garantindo sorrisos mais saudáveis e felizes.</p>
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2>Nossa Missão</h2>
+        <p>Nossa missão é oferecer um atendimento odontológico de excelência, focado na prevenção e no tratamento das mais diversas
+            necessidades bucais. Buscamos promover a saúde bucal de nossos pacientes, garantindo qualidade de vida e bem-estar.</p>
+    </section>
+    <br>
+
+    <section>
+        <ul>
+            <li>
+                <h3>Especialidades</h3>
+                <p>Oferecemos uma ampla gama de serviços odontológicos, incluindo ortodontia, implantodontia, endodontia, estética dental,
+                    e muito mais. Nosso objetivo é atender todas as necessidades bucais de nossos pacientes em um único lugar.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Qualidade</h3>
+                <p>Garantimos a mais alta qualidade em todos os nossos procedimentos, utilizando materiais de primeira linha e as técnicas
+                    mais avançadas da odontologia moderna.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Equipe</h3>
+                <p>Nossa equipe é formada por profissionais altamente qualificados e comprometidos com a saúde bucal dos nossos pacientes.
+                    Estamos sempre em constante atualização para oferecer o melhor atendimento possível.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Atendimento</h3>
+                <p>Nosso atendimento é diferenciado, focado no conforto e na satisfação do paciente. Valorizamos a relação de confiança e
+                    respeito com cada um de nossos pacientes, proporcionando uma experiência agradável e segura.</p>
+            </li>
+        </ul>
+        <br>
+    </section>
+    <br>
+    <br>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Consultório Odontológico. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
